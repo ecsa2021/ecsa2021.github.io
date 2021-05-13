@@ -1926,3 +1926,7 @@ section {
 .get-now:hover{
     color: #000!important;
 }
+
+.tier .about{
+    margin-top: 85px;
+}
