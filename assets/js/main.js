@@ -28,6 +28,7 @@ function isVisibleCarouselTop() {
             $('nav>ul>li>a').css({color: "#000"});
         }
         $('nav>ul>li.drop-down>ul>li>a').css({color: "#fff"});
+        $('.mobile-nav.d-lg-none ul li a').css({color: "#000"});
     });
 
     // Smooth scroll for the navigation menu and links with .scrollto classes
@@ -58,8 +59,10 @@ function isVisibleCarouselTop() {
                     $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
                     $('.mobile-nav-overly').fadeOut();
                 }
+                $('.mobile-nav.d-lg-none ul li a').css({color: "#000"});
                 return false;
             }
+            $('.mobile-nav.d-lg-none ul li a').css({color: "#000"});
         }
     });
 
@@ -236,3 +239,7 @@ function isVisibleCarouselTop() {
     });
 
 })(jQuery);
+
+$(document).ready(function(){
+    $('.mobile-nav.d-lg-none ul li a').css({color: "#000"});
+});

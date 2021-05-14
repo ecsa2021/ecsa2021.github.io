@@ -321,7 +321,8 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #0b2341;
+  /*color: #0b2341;*/
+  color: #000;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -349,12 +350,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav .drop-down ul {
-  display: none;
+  /*display: none;*/
   overflow: hidden;
 }
 
 .mobile-nav .drop-down li {
   padding-left: 20px;
+}
+
+.mobile-nav ul li a{
+    color: #000;
 }
 
 .mobile-nav-overly {
@@ -372,6 +377,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav-active {
   overflow: hidden;
+  color: #000;
 }
 
 .mobile-nav-active .mobile-nav {
@@ -380,7 +386,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #fff;
+  /*color: #fff;*/
 }
 
 /*--------------------------------------------------------------
